@@ -27,8 +27,8 @@ app.get('/new/:url(*)', function(req, res){
             default:
                 newCode = newCode;
         }
-        db.urls.insert({"original_URL":newURL, "short_URL":newCode});
-        res.json({"original_URL":newURL, "short_URL":newCode});
+        db.urls.insert({"original_URL":newURL, "short_URL":'https://floating-eyrie-26991.herokuapp.com/'+newCode});
+        res.json({"original_URL":newURL, "short_URL":'https://floating-eyrie-26991.herokuapp.com/'+newCode});
         });
        
     } else {
