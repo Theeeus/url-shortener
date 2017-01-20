@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    
+    <title>URL Shortener microservice</title>
+
+</head>
+
+<body>
+
+	<style>
+    
+    body {
+        margin-left: 100px;
+    }
+    
+    h3 {
+        margin-top: 30px;
+    }
+        
+	.sample {
+		color: red;
+		font-style: italic;
+	}
+		
+	</style>
+
+	<h1>Free Code Camp: URL Shortener Microservice</h1>
+
+	<h3>User stories</h3>
+	<ul>
+		<li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+		<li>When I visit that shortened URL, it will redirect me to my original link.</li>
+	</ul>
+
+	<h3>Creating a short URL</h3>
+	<p class="sample">https://floating-eyrie-26991.herokuapp.com/new/https://www.google.com</p>
+
+	<h3>Example output</h3>
+	<p class="sample">{ "original_url":"https://www.google.com", "short_url":"https://floating-eyrie-26991.herokuapp.com/0001" }</p>
+
+	<h3>Accessing the short URL provided</h3>
+	<p class="sample">https://floating-eyrie-26991.herokuapp.com/0001</p>
+
+	<h3>Will redirect to the original URL:</h3>
+	<p class="sample">https://www.google.com/</p>
+
+</body>
+
+</html>
