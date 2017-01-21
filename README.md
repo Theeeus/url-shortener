@@ -25,12 +25,12 @@ For [Free Code Camp](http://freecodecamp.com) - [API Basejump: URL Shortener Mic
 
 ### Sample Output
 
-```javascript
-{ 
-	"original_url":"https://www.google.com", 
-	"short_url":"https://floating-eyrie-26991.herokuapp.com/0001" 
-}
-```
+	```javascript
+	{ 
+		"original_url":"https://www.google.com", 
+		"short_url":"https://floating-eyrie-26991.herokuapp.com/0001" 
+	}
+	```
 
 ### Live Site
 [https://floating-eyrie-26991.herokuapp.com](https://floating-eyrie-26991.herokuapp.com)
