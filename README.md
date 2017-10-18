@@ -1,7 +1,7 @@
 # API Basejump: URL Shortener Microservice
 
 
-For [Free Code Camp](http://freecodecamp.com) - [API Basejump: URL Shortener Microservice](https://www.freecodecamp.com/challenges/url-shortener-microservice)
+For [Free Code Camp](http://freecodecamp.com) - API Basejump: URL Shortener Microservice
 
 
 ### User Stories
@@ -29,6 +29,3 @@ https://floating-eyrie-26991.herokuapp.com/0001
 	"short_url":"https://floating-eyrie-26991.herokuapp.com/0001" 
 }
 ```
-
-### Live Site
-[https://floating-eyrie-26991.herokuapp.com](https://floating-eyrie-26991.herokuapp.com)
