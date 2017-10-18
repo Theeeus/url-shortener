@@ -15,12 +15,12 @@ For [Free Code Camp](http://freecodecamp.com) - API Basejump: URL Shortener Micr
 1. Creating a short URL
 
 	```
-	https://floating-eyrie-26991.herokuapp.com/new/https://www.google.com
+	http://localhost:8080/new/https://www.google.com
 	```
 2. Accessing the short URL provided
 
 	```
-	https://floating-eyrie-26991.herokuapp.com/0001
+	http://localhost:8080/0001
 	```
 
 ### Sample Output
@@ -28,6 +28,6 @@ For [Free Code Camp](http://freecodecamp.com) - API Basejump: URL Shortener Micr
 ```javascript
 { 
 	"original_url":"https://www.google.com", 
-	"short_url":"https://floating-eyrie-26991.herokuapp.com/0001" 
+	"short_url":"http://localhost:8080/0001" 
 }
 ```
