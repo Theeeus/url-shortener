@@ -13,13 +13,15 @@ For [Free Code Camp](http://freecodecamp.com) - API Basejump: URL Shortener Micr
 ### Usage
 
 1. Creating a short URL
-```
-https://floating-eyrie-26991.herokuapp.com/new/https://www.google.com
-```
+
+	```
+	https://floating-eyrie-26991.herokuapp.com/new/https://www.google.com
+	```
 2. Accessing the short URL provided
-```
-https://floating-eyrie-26991.herokuapp.com/0001
-```
+
+	```
+	https://floating-eyrie-26991.herokuapp.com/0001
+	```
 
 ### Sample Output
 
